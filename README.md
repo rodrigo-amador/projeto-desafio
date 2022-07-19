@@ -25,9 +25,9 @@ Dados BD:
 -------------------------------------------------------------------------------------------------------------------------------
 Comandos para rodar o projeto:
 
-iniciar projeto: npm run start:dev
+iniciar projeto: `npm run start:dev`
 
-teste integração: npm run test:e2e
+teste integração: `npm run test:e2e`
 
 -------------------------------------------------------------------------------------------------------------------------------
 
