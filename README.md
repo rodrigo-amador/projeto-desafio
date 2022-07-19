@@ -47,17 +47,6 @@ Tokens:
 -------------------------------------------------------------------------------------------------------------------------------
 
 Rotas:
-(GET) localhost:3000/conteudos : Retorna a listagem de conteudos (qualquer usuário)
-
-headers: {
-    Authorization: `Bearer {token}`
-}
-
-(GET) localhost:3000/conteudos/{id} : Retorna o registro do conteudo com o id fornecido na URL via parametro (qualquer usuário)
-
-headers: {
-    Authorization: `Bearer {token}`
-}
 
 (POST) localhost:3000/conteudos : Cria o registro de conteudo com o body abaixo (somente administrador)
 
@@ -84,6 +73,18 @@ body: {
 }
 
 (DELETE) localhost:3000/conteudos/{id} : Deleta o registro de conteudo com o id fornecido na URL via parametro (somente administrador)
+
+headers: {
+    Authorization: `Bearer {token}`
+}
+
+(GET) localhost:3000/conteudos : Retorna a listagem de conteudos (qualquer usuário)
+
+headers: {
+    Authorization: `Bearer {token}`
+}
+
+(GET) localhost:3000/conteudos/{id} : Retorna o registro do conteudo com o id fornecido na URL via parametro (qualquer usuário)
 
 headers: {
     Authorization: `Bearer {token}`
