@@ -24,6 +24,7 @@ Dados BD:
 
 -------------------------------------------------------------------------------------------------------------------------------
 Comandos para rodar o projeto:
+
 inicial: `npm install`
 
 iniciar projeto: `npm run start:dev`
@@ -47,19 +48,23 @@ Tokens:
 
 Rotas:
 (GET) localhost:3000/conteudos : Retorna a listagem de conteudos (qualquer usuário)
+
 headers: {
     Authorization: `Bearer {token}`
 }
 
 (GET) localhost:3000/conteudos/{id} : Retorna o registro do conteudo com o id fornecido na URL via parametro (qualquer usuário)
+
 headers: {
     Authorization: `Bearer {token}`
 }
 
 (POST) localhost:3000/conteudos : Cria o registro de conteudo com o body abaixo (somente administrador)
+
 headers: {
     Authorization: `Bearer {token}`
 }
+
 body: {
     "nome": "Video teste 4",
     "descricao": "descrição teste 4",
@@ -67,9 +72,11 @@ body: {
 }
 
 (PATCH) localhost:3000/conteudos/{id} : Edita o registro de conteudo com o id (fornecido na url como parametro) e body fornecido abaixo (somente administrador)
+
 headers: {
     Authorization: `Bearer {token}`
 }
+
 body: {
     "nome": "Video teste 4", // opcional
     "descricao": "descrição teste 4", // opcional
@@ -77,6 +84,7 @@ body: {
 }
 
 (DELETE) localhost:3000/conteudos/{id} : Deleta o registro de conteudo com o id fornecido na URL via parametro (somente administrador)
+
 headers: {
     Authorization: `Bearer {token}`
 }
