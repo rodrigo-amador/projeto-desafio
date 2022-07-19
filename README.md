@@ -24,6 +24,7 @@ Dados BD:
 
 -------------------------------------------------------------------------------------------------------------------------------
 Comandos para rodar o projeto:
+inicial: `npm install`
 
 iniciar projeto: `npm run start:dev`
 
